@@ -1,0 +1,31 @@
+html,body{
+    height:100%;
+    margin: 0;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: bisque !important;
+}
+
+nav{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+
+.accesos{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.fotoacceso{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
